@@ -1,0 +1,87 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(back42.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+
+.forgot_pass
+{   -webkit-border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    height: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, .4);
+    padding: 10px 40px;
+    
+}
+#icon{
+    
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+
+}
+label{
+    
+    font-size: 25px;
+}
+.text-box{
+   width: 100%;
+   overflow: hidden;
+   margin-top: 10px;
+   margin-right: 50px;
+   font-size: 20px;
+   padding-bottom: 8px; /* entre input et border bottom*/
+   margin-left: 8px;
+   margin-bottom: 15px;
+   border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.text-box i
+{
+    width: 26px;
+    float: left;
+}
+.text-box input
+{
+    border:none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    width: 85%;
+    float: left;
+    margin-left: 10px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid rgb(245, 201, 201);
+    color: rgb(245, 201, 201);
+    padding-top: 5px; /* entre le mot Enter et border */
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    cursor: pointer; 
+
+}
+
+::-webkit-input-placeholder{ /* for chrome  navigator this setting*/
+    font-weight: 120px;
+    color: rgb(214, 212, 212)
+    
+ }
+ ::-moz-placeholder { /* for  mozilla navigator this setting*/
+    font-weight: 120px;
+    color: rgb(214, 212, 212)
+ }
