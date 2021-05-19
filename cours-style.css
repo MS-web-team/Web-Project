@@ -1,0 +1,61 @@
+
+img{
+	height: 120px;
+	width: 120px;
+}
+
+.cours-box{
+	height: 150px;
+	position: relative;
+    min-height: 1px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.img-box{
+	width: 125px;
+	margin-left: 30px;
+	float: left;
+
+
+
+}
+.space{
+	margin-top: 90px;
+}
+.taille{
+ width: 80px;
+  height: 80px;
+}
+.place{
+  width: 80px;
+  height: 80px;
+  float: right;
+  margin-right: 25px;
+}
+
+.align{
+  float: right;
+  width: 235px;
+  margin-right: 25px;
+}
+.liss{
+  width: 235px;
+}
+.length{
+
+  width: 1350px;
+}
+
+footer {
+	background: rgba(0, 0, 0, .4);
+	height: 220px;
+}
+h1{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+nav{
+  margin-left: 10px;
+}

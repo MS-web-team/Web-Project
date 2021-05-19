@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="box">
+        
+        <label for="matiere" class="titres">Matière</label>
+        <div class="module">
+            <select id="matiere">
+                <option value="">Select</option>
+                <option value="Java">Java orienté objet</option>
+                <option value="web">Programmation Web</option>
+                <option value="electronique">Elements de puissance</option>
+                <option value="reseau">Réseaux informatiques</option>
+                <option value="ALE">Automatique linéaire échantillonné</option>
+                <option value="mips">Architecture des microprocesseurs</option>
+                <option value="algo">Algorithme et structures de données</option>
+                <option value="fpga">Circuits programmables</option>
+                <option value="Proba">Probabilité et statistiques</option>
+                <option value="eco">Managements et relations humaines </option>
+                <option value="anglais">Anglais</option>
+                <option value="français">Français</option>
+            </select>
+        </div>
+        <label class="titres">Catégorie</label>
+        <div class="categorie">
+            <div class="cours">
+                <input type="radio"  id="cours"  name="type">
+                <label for="cours">Cours</label>
+            </div>
+            <div class="td">
+                <input type="radio" id="td" name="type">
+                <label for="td">TD</label>
+            </div>
+            <div class="ds">
+                <input type="radio" id="ds" name="type">
+                <label for="ds">DS</label>
+            </div>
+            <div class="examen">
+                <input type="radio" id="examen" name="type">
+                <label for="examen">Examen</label>
+            </div>
+           
+        </div>
+        <label for ="title" class="titres">Titre </label>
+        <div class="input">
+            <input type="text" id = "title">
+        </div>
+        <div class="description">
+            <label for ="desc" class="titres">Description </label>
+            <div class="input">
+                <textarea id = "desc" ></textarea>
+               
+            </div>
+        </div>
+        <label class="titres">Source</label>
+        <div class="source">
+                <label for="pdf" id="pdf_btn">PDF</label>
+                <input type="file" id="pdf" class="pdf_source">
+                <label for="img" id ="img_btn">Image</label>
+                <input type="file" id="img" class="image_source">
+ 
+        </div>
+        <div>
+            <input type="button" class="confirm" onclick="location.href='Pacceuil.html'" value="Confirmer">
+        </div>
+
+
+    </div>
+</body>
+</html>

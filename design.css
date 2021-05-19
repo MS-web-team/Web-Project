@@ -1,0 +1,119 @@
+body{
+width: 1350px;}
+
+h1{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+nav{
+  margin-left: 10px;
+}
+
+h2{
+  margin-left: 15px;
+}
+main{
+ padding-top: 0px;
+}
+ #sidebar  {
+  margin-bottom: 50px;
+  width: 22%;
+  height: 300px;
+  background-color: #D3D3D3;
+  float:right;
+  border-left: 3px;
+  padding-left: 10px;
+  padding-right: 0;
+  border-right: 0px;
+}
+
+div{
+	width: 1350px;
+	height: 400px;
+	margin-top: 0;
+	margin-bottom: 10px; 
+
+}
+
+#image{
+	background-image: url("back.jpg");
+  /*margin-bottom: 0px;*/
+	
+	}
+#text{
+	text-align: center;
+  color: #FFFFFF;
+}
+
+.bouton{
+	margin-top: 30px;
+	margin-left: 450px;
+  height: 80px;
+	
+
+}
+.list{
+	width: 1350px;
+	height: 100px;
+}
+.margin_left{
+
+	margin-left: 20px;
+}
+
+#cours {
+  width: 270px;
+  height: 40px;
+  margin-left: 60px;
+ 
+}
+#avis{
+  width: 150px
+  height:35px;
+  margin-left: 50px;
+}
+
+
+.taille{
+ width: 80px;
+  height: 80px;
+}
+.place{
+  width: 80px;
+  height: 80px;
+  float: right;
+  margin-right: 25px;
+}
+
+.align{
+  float: right;
+  width: 235px;
+  margin-right: 25px;
+}
+.liss{
+  width: 235px;
+}
+.length{
+
+  width: 1350px;
+}
+.add{
+  float: right;
+  margin-top: 0px;
+}
+
+
+
+/*.contenant {
+  position: relative;
+  text-align: center;
+  color: red;
+  float: left;
+}
+.texte_centrer{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+  /*transform: translate(-50%, -50%);*/
+  
